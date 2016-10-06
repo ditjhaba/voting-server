@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register --recursive",
-    "test:watch": "npm test -- --watch"
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive"
   },
   "repository": {
     "type": "git",
